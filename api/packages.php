@@ -8,7 +8,7 @@
 
   $file = $theme . '.zip';
 
-  $directory = 'http://lfullerdesign.com/demo/empire_test/api/download.php';
+  $directory = 'https://github.com/weareempire/Wordpress-Base-Theme/tree/master/api/download.php';
 
 
   $packages[ $theme ] = array( //Replace theme with theme stylesheet slug that the update is for

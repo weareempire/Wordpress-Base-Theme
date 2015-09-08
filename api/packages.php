@@ -1,6 +1,6 @@
 <?php
 
-  $version = '1.0.001'; // format 0.0.000
+  $version = '1.0.002'; // format 0.0.000
 
   $date = '2015-09-08'; // format YYYY-MM-DD
 

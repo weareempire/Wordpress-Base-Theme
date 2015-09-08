@@ -43,12 +43,12 @@
       <script src="//use.typekit.net/<?php the_field('typekit_id','option'); ?>.js"></script>
       <script>try{Typekit.load();}catch(e){}</script>
     <?php endif; ?>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/assets/css/main.css">
+    <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/assets/css/style.css">
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> RSS Feed" href="<?php bloginfo( 'url' ); ?>/feed/">
 
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <?php ts_emp_get_file( 'respond', 'js', true ); ?>
+        
     <![endif]-->
 
     <?php if(get_field('google_analtics_id','option') ): ?>

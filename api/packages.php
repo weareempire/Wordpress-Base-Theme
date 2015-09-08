@@ -2,8 +2,8 @@
 // Theme with update info
 $packages['empire_base'] = array( //Replace theme with theme stylesheet slug that the update is for
     'versions' => array(
-        '1.0.002' => array( //Array name should be set to current version of update
-            'version' => '1.0.002', //Current version available
+        '1.0.003' => array( //Array name should be set to current version of update
+            'version' => '1.0.003', //Current version available
             'date' => '2015-09-08', //Date version was released
             //theme.zip is the same as file_name
             'package' => 'https://github.com/weareempire/Wordpress-Base-Theme/raw/master/api/download.php?key=' . md5('empire_base.zip' . mktime(0,0,0,date("n"),date("j"),date("Y"))),

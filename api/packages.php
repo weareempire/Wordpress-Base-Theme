@@ -6,7 +6,7 @@ $packages['empire_base'] = array( //Replace theme with theme stylesheet slug tha
             'version' => '1.0.003', //Current version available
             'date' => '2015-09-08', //Date version was released
             //theme.zip is the same as file_name
-            'package' => 'https://github.com/weareempire/Wordpress-Base-Theme/raw/master/api/download.php?key=' . md5('empire_base.zip' . mktime(0,0,0,date("n"),date("j"),date("Y"))),
+            'package' => 'http://demo.youareempire.co.uk/theme/api/download.php?key=' . md5('empire_base.zip' . mktime(0,0,0,date("n"),date("j"),date("Y"))),
             //file_name is the name of the file in the update folder.
             'file_name' => 'empire_base.zip',	//File name of theme zip file
             'author' => 'We Are Empire', //Author of theme
